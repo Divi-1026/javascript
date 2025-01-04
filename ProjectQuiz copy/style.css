@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Ensure content starts from the top */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px; /* Prevent content from touching screen edges */
+}
+
+.container {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+h1 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+#out {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1em;
+    color: #444;
+}
+
+/* Add Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
