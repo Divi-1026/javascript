@@ -1,0 +1,99 @@
+/* Global Body Styles */
+body {
+    font-family: 'Montserrat', sans-serif; /* Modern font for clean look */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0d5b73, #1a8d8d); /* Cool gradient from deep teal to turquoise */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: rgba(0, 0, 0, 0.6); /* Dark transparent background */
+    backdrop-filter: blur(12px); /* Soft blur effect */
+    border-radius: 15px; /* Smooth rounded corners */
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    padding: 3rem;
+    width: 80%;
+    max-width: 450px; /* Slightly larger for spacious design */
+    text-align: center;
+}
+
+/* Title */
+.container h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.8rem; /* Larger text for emphasis */
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4); /* Light shadow for depth */
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Label */
+.form-group label {
+    display: block;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #e5e3e3; /* Soft golden color */
+    margin-bottom: 0.5rem;
+}
+
+/* Input Fields */
+.form-group input {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px; /* Soft edges */
+    background-color: #222; /* Dark background for inputs */
+    font-size: 1.1rem;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+}
+
+.form-group input:focus {
+    outline: none;
+    background-color: #333; /* Lighter shade when focused */
+    box-shadow: 0 0 10px #ffcb47; /* Golden glow when focused */
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #ca350c; /* Golden yellow */
+    border: none;
+    padding: 1rem 2rem;
+    color: #fff;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #da1010; /* Brighter golden color on hover */
+    transform: translateY(-4px); /* Button lifts on hover */
+}
+
+.submit-btn:active {
+    transform: translateY(2px); /* Button presses down on click */
+}
+
+/* Result Display */
+.result {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #d1e2d6; /* Soft light green */
+}
+
+
+
